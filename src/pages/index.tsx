@@ -32,7 +32,7 @@ export default function IndexPage() {
     <div
       className="flex flex-col items-center justify-center relative h-screen w-full overflow-hidden"
       style={{
-        backgroundImage: 'url("/images/Uppsala_University_2023.jpg")',
+        backgroundImage: `url(${import.meta.env.BASE_URL}images/Uppsala_University_2023.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
